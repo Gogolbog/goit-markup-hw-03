@@ -114,17 +114,18 @@ img {
 }
 
 .nav-link {
-    
     padding-top: 32px;
     padding-bottom: 32px;
     display: block;
 
-    color: var(--main-text-color);
-    
+    color: var(--main-text-color); 
 }
 
 .nav-auth {
     color:var(--auth-color);
+    padding-top: 32px;
+        padding-bottom: 32px;
+        display: block;
 
 }
 
