@@ -324,7 +324,6 @@ img {
 
 .footer {
     background-color: var(--third-back-color);
-    height: 250px;
 }
 
  .footer .logo {
@@ -344,6 +343,7 @@ img {
         padding-right: 15px;
         margin-right: auto;
         margin-left: auto;
+        height: 250px;
 }
 
 .location {
@@ -365,7 +365,7 @@ img {
         letter-spacing: 0.03em;
     
         color: var(--footer-contact-color);
-
+        display: inline-block;
         margin-top: 10px;
 }
 
@@ -471,6 +471,7 @@ img {
         color: var(--main-text-color);
         margin-top: 20px;
         margin-bottom: 4px;
+        margin-left: 24px;
 }
 
 .project-field {
@@ -478,6 +479,7 @@ img {
         line-height: 1.88;
         letter-spacing: 0.03em;
         margin-bottom: 20px;
+        margin-left: 24px;
     
         color: var(--auth-color);
 }
