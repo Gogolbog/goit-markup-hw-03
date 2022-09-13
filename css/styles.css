@@ -388,10 +388,6 @@ img {
 
 /* page portfolio */
 
-.btn-list {
-    display: flex;
-    align-items: center;
-}
 
 .container-menu {
         width: 1200px;
@@ -399,10 +395,12 @@ img {
         padding-right: 15px;
         margin-right: auto;
         margin-left: auto;
-        display: flex;
-        align-items: center;
-        flex-direction: column;
-        
+}
+
+.btn-list {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
 }
 
 .btn {
@@ -423,11 +421,6 @@ img {
         background-color: var(--secondary-back-color);
 
         display: inline-block;
-}
-
-.btn-list {
-    align-items: center;
-    margin-bottom: 50px;
 }
 
 .btn-item:not(:last-child) {
@@ -469,7 +462,6 @@ img {
         color: var(--main-text-color);
 
         margin-bottom: 4px;
-
 }
 
 .project-field {
